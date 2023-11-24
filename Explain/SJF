@@ -14,3 +14,5 @@ processes)
 6. Sort burst time, process number and waiting time using selection sort in ascending order for
 process number
 7. Display results
+8. Average waiting time total/number of processes
+9. Display average waiting time
