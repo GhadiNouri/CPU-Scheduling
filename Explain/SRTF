@@ -1,0 +1,8 @@
+SRTF => Short Remaining Time First.
+
+Code Steps:
+*Since the arrival time is equal to 0*, SRTF is equivalents to SJF, but if the arrival time for each process is 
+different, then it will follow the same steps as the SJF except that it will check each time for which has 
+less remaining time and if it arrived or not. If not arrived then it will complete the current process, if it’s 
+arrived then it will preempt the current process and start the new one, and the procedure will be repeated 
+each time a new process will arrive.
