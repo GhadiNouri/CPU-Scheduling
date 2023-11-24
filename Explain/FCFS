@@ -1,0 +1,11 @@
+FCFS => First Come First Served.
+
+Code Steps:
+1. Take number of processes(n) and CPU time(bt[]) for each process
+2. Arrival time =0 for all processes and waiting time for first process=0
+3. Calculate waiting time for each process (waiting time = sum of CPU time for the previous
+processes)
+4. Calculate total waiting time(sum of waiting time for all processes)
+5. Display results
+6. Average waiting time total/number of processes
+7. Display average waiting time
