@@ -1,0 +1,16 @@
+SJF => Short Job First.
+
+Code Steps:
+1. Take number of processes(n) and CPU time(bt[]) for each process
+2. Sort burst time using selection sort
+• Step 1: set min to the first location
+• Step 2: search the minimum element in bt[]
+• Step 3: swap the first location with the minimum value in bt[]
+• Step 4: swap process number p[] and repeat the steps
+3. Arrival time =0 for all processes and waiting time for first process=0
+4. Calculate waiting time for each process (waiting time = sum of CPU time for the previous
+processes)
+5. Calculate total waiting time(sum of waiting time for all processes)
+6. Sort burst time, process number and waiting time using selection sort in ascending order for
+process number
+7. Display results
