@@ -1,0 +1,17 @@
+Code Steps:
+1. Take number of processes(n) and CPU time(bt[]) for each process
+2. Take priority number for each process
+3. Sort priority using selection sort
+• Step 1: set min to the first location
+• Step 2: search the minimum element in pr1[]
+• Step 3: swap the first location with the minimum value in bt[]
+• Step 4: swap process number p[] and bt[] and repeat the steps
+4. Arrival time =0 for all processes and waiting time for first process=0
+5. Calculate waiting time for each process (waiting time = sum of CPU time for the previous
+processes)
+6. Calculate total waiting time(sum of waiting time for all processes)
+7. Sort priority, burst time, process number and waiting time using selection sort in ascending
+order for process number
+8. Display results
+9. Average waiting time total/number of processes
+10. Display average waiting time
